@@ -25,7 +25,7 @@ class A{
 		System.out.println("Enter Designation: ");
 		desgn=sc.next();
     }
-        void display()
+        void display()//method has rtype
         {
             System.out.println("ID: "+ID);
 		    System.out.println("Name: "+name);
