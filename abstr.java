@@ -13,11 +13,11 @@ class Axis extends Bank{
     payment(){
         System.out.println("no implemented Abstract method");
     }
-    abstract void xyz();
+   // abstract void xyz();
     
 }
 class SBI extends Axis{
-    xyz()
+    void xyz()
     {
         System.out.println("gx");
     }
